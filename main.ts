@@ -18,7 +18,7 @@ function run() {
         if (lastReplied == "000000000000000000") {
             lastReplied = response[0].id_str;
             console.log("Skipping tweet, lastReplied was 0");
-        } else if (response[0].id_str = lastReplied) {
+        } else if (response[0].id_str === lastReplied) {
             console.log("Skipping tweet, already replied");
         } else {
             lastReplied = response[0].id_str;
@@ -38,4 +38,4 @@ function reply(id: string) {
     })
 }
 
-run();
+setInterval(run, 15000);
