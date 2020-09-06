@@ -1,0 +1,25 @@
+{
+  "name": "pari-time",
+  "version": "1.0.0",
+  "description": "Twitter bot to tell a user what time it is",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel11420/paritime.git"
+  },
+  "author": "daniel11420",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/daniel11420/paritime/issues"
+  },
+  "homepage": "https://github.com/daniel11420/paritime#readme",
+  "dependencies": {
+    "@types/node": "^14.6.4",
+    "@types/twitter": "^1.7.0",
+    "twitter": "^1.7.1",
+    "typescript": "^4.0.2"
+  }
+}
